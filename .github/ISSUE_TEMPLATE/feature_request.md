@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-**Describe the Feature**
-A clear and concise description of what you want to happen.
+**Use Case**
+Explain the use case of this feature.
 
-**Expected behavior**
-A clear and concise description of what you want to happen.
+**Expected Behavior**
+A clear and concise description of what you expected to happen
 
-**Additional context**
+**Other Information**
 Add any other context or screenshots about the feature request here.
