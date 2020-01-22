@@ -19,7 +19,6 @@ jobs:
 
     steps:
       - checkout
-      
       - sonarcloud/scan
 
       # Download and cache dependencies
