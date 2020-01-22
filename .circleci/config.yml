@@ -54,3 +54,11 @@ jobs:
       - store_artifacts:
           path: test-reports
           destination: test-reports
+ orbs:
+  sonarcloud: sonarsource/sonarcloud@1.0.1
+ 
+ workflows:
+  main:
+    jobs:
+      - build:
+          context: SonarCloud
