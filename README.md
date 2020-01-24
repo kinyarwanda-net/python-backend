@@ -4,7 +4,7 @@
 # python-backend
 
 ### Getting started
-```.env
+```
 $ git clone https://github.com/kinyarwanda-net/python-backend.git
 $ cd python-backend
 $ pip install virtualenv
@@ -15,5 +15,6 @@ $ python api/app.py
 ```
 
 ### Running tests:
-- run server in 1st the terminal: `python api/app.py`
-- run tests in the 2nd terminal: `pytest`
+```
+$ python -m unittest discover tests
+```
